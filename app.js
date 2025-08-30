@@ -2,8 +2,13 @@
 
 // import {calcluate} from './xyz.js'
 
-const calcluate=require('./xyz')
+const{sum,mul}=require('./calculate')
 
 
 
-calcluate(1, 2);
+
+sum(10,15)
+mul(5,3)
+
+
+module.

@@ -15,8 +15,11 @@ function calculate(a,b){
   let sum=a+b
   console.log(sum);
 }
+console.log(module.exports);
+
 
 module.exports=calculate
+
 
 
 
