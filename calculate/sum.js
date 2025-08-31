@@ -7,4 +7,10 @@ const sum=(a,b)=>{
 }
 
 
-module.exports={sum}
+const multiply=(a,b)=>{
+
+  console.log(a*b);
+}
+
+
+module.exports={sum,multiply}
