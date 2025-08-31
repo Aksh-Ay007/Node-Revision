@@ -6,9 +6,7 @@ const{sum,mul}=require('./calculate')
 
 
 
-
-sum(10,15)
-mul(5,3)
+sum(44,66)
 
 
-module.
+console.log(__filename);
