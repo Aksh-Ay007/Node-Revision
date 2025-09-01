@@ -2,6 +2,8 @@ const fs = require("fs");
 let a = 10;
 let b = 20;
 
+
+/*
 setImmediate(() => console.log("SetImmediate: Executed outside I/O events."));
 
 fs.readFile("./note.txt", "utf-8", (err, data) => {
@@ -34,3 +36,10 @@ process.nextTick(() => console.log("NextTick: Scheduled with delay (should execu
 const result = sum(a, b);
 
 console.log("Sum result:",result )
+
+*/
+
+
+//thread poll
+
+
